@@ -1,0 +1,8 @@
+Lemma l1 :
+(forall A B : Prop,( A /\ B) -> A \/ B).
+Proof.
+  intros.
+  right.
+  destruct H.
+  exact H0.
+Qed.
